@@ -1,0 +1,36 @@
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+
+.projectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    @media screen and (max-width: 768px) {
+        margin: 30px;
+    }
+    @media screen and (max-width: 375px) {
+        margin: 20px;
+    }
+}
+
+
+
+.projectWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+}
+

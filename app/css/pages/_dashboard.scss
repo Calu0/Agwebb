@@ -1,0 +1,188 @@
+.mainPage {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.corePage{
+    width: 100%;
+}
+
+.topContainer {
+    display: flex;
+    height: 300px;
+    padding: 50px 50px 0px 50px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 25px;
+        padding: 40px 20px 10px 20px;
+        height: 370px;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 400px;
+    }
+
+    @media screen and (max-width: 375px) {
+        height: 500px;
+    }
+
+}
+
+.topWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+    gap: 20px;
+    width: 70%;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+
+
+.asideWrapper {
+    background-color: #6DB040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+
+    aside {
+        display: flex;
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 20px;
+        text-align: center;
+
+        @media screen and (max-width: 768px) {
+            font-size:20px;
+        }
+
+        @media screen and (max-width: 375px) {
+            font-size:18px;
+        }
+    }
+
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    padding: 40px;
+    h2{
+        margin: 0px;
+        font-size: 18px;
+        font-weight: 400;
+
+        @media screen and (max-width: 768px) {
+            font-size:16px;
+        }
+    }
+    p{
+        margin: 0px;
+        font-size: 18px;
+        color: #6DB040;
+        font-weight: 700;
+
+        @media screen and (max-width: 768px) {
+            font-size:16px;
+        }
+    }
+}
+
+
+.topCard {
+
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+
+    }
+
+.topCardBottom {
+    
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+        height: 50%;
+
+        @media screen and (max-width: 375px) {
+            flex-direction: column;
+            height: auto;
+        }
+        
+    article {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #6DB040;
+        font-weight: 700;
+        font-size: 18px;
+        width: 100%;
+        @media screen and (max-width: 768px) {
+            font-size:15px;
+        }
+
+        @media screen and (max-width: 375px) {
+            width: auto;
+        }
+        
+    }
+ }
+
+ .bottomContainer {
+    background-color: #EEF6E9;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px 50px 50px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 768px) {
+        margin: 30px 20px;
+    }
+
+    @media screen and (max-width: 425px) {
+        margin: 40px 0px;
+        padding: 20px;
+        border-radius: 0px;
+    }
+
+    h3{
+        margin:0px 0px 20px 0px;
+        font-weight: 600;
+        font-size: 18px;
+
+        @media screen and (max-width: 768px) {
+            font-size:16px;
+        }
+    }
+}
+
+.bottomArticleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+ 
