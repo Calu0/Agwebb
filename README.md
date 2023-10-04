@@ -8,9 +8,9 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 Update these with your Supabase details from your project settings > API
 https://app.supabase.com/project/_/settings/api
 
-# npm i
+npm i
 
-# npm run dev
+npm run dev
 
 
 
