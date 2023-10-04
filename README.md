@@ -12,7 +12,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=
 Update these with your Supabase details from your project settings > API
 https://app.supabase.com/project/_/settings/api
 
-# Install the dependencies and then run the development server: 
+# Install the depedencies and then run the development server: 
 
 ```bash
 npm install 
