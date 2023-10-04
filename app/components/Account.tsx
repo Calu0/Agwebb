@@ -9,7 +9,7 @@ export default function Account() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await fetch("/api/getEmail");
+      const result = await fetch("/api/getUser");
       const user = await result.json();
       setEmail(user.email);
       setUsername(user?.user_metadata.username);

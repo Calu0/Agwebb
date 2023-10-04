@@ -17,9 +17,9 @@ export default function Index() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await fetch("/api/getUsername");
-      const data = await result.json();
-      setUsername(data);
+      const result = await fetch("/api/getUser");
+      const user = await result.json();
+      setUsername(user?.user_metadata.username);
     };
 
     fetchData();
