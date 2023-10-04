@@ -13,7 +13,6 @@ export default function Account() {
       const user = await result.json();
       setEmail(user.email);
       setUsername(user?.user_metadata.username);
-      console.log(user);
     };
 
     fetchData();
